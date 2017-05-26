@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  
 public class ApiClient {
  
-    public static final String BASE_URL = "http://192.2.2.44:8082/BloodDonate/rest/";
+    public static final String BASE_URL = "http://192.168.2.72:8082/BloodDonate/rest/";
     private static Retrofit retrofit = null;
  
  

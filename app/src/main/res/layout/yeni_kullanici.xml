@@ -19,36 +19,38 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="1">
+            android:weightSum="100">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ad"
-                android:layout_weight="0.5"/>
+                android:layout_weight="50"
+                android:text="Ad" />
 
             <EditText
                 android:id="@+id/edAd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"/>
+                android:layout_weight="50"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="1">
+            android:weightSum="100">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Soyad"
-                android:layout_weight="0.5"/>
+                android:layout_weight="50"
+                android:text="Soyad" />
 
             <EditText
                 android:id="@+id/edSoyad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"/>
+                android:layout_weight="50"/>
         </LinearLayout>
 
         <LinearLayout
